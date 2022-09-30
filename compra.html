@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url(imagenes/argentina.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <main>
+        <br>
+        <a class="atras" href="index.html">Volver Atrás</a>
+        <div class="titulo">
+            <font size="7"> <u>Formulario de Contacto</u></font>
+        </div>
+    </main>
+    <br>
+    <center>
+        <form action="ingreso.php" method="post">
+            <label>Nombres y Apellidos:</label>
+            <div>
+                <input type="text" name="nombres" required maxlength="40">
+            </div>
+
+            <label>Correo Electrónico:</label>
+            <div>
+                <input type="email" name="correo" required maxlength="40">
+            </div>
+
+            <label>Asunto:</label>
+            <div>
+                <input type="text" name="asunto" required maxlength="40">
+            </div>
+
+            <label>Mensaje:</label>
+            <div>
+                <textarea name="mensaje" rows="4" cols="35" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit" value="Ingresar Datos">Ingresar Datos</button>
+            </div>
+        </form>
+    </center>
+    <br>
+    <br>
+    <div class="calcular">
+        <h2>¡Disfrute de cada articulo al 100%!</h2>
+        <p>●Para comprar, realice lo siguiente..</p>
+        <ul>
+            <li>▷Ingrese el precio del articulo deseado</li>
+            <li>▷Haz click en el boton "Calcule Aquí"</li>
+            <li>▷Descubre su valor!</li>
+        </ul>
+        <span>▷Ingrese el valor en (PESOS)</span>
+        <p><a class="botenestilo" href="#" role="button" id="boton"> Calcule Aquí</a>
+        </p>
+        <script src="comprar.js"></script>
+    </div>
+
+    <table class="tabla" border="3">
+        <caption>
+            <center>
+                <font size="5"> <u>Integrantes de la Organización </u> </font>
+            </center>
+        </caption>
+        <tr>
+            <td>
+                <center>Imagen </center>
+            </td>
+            <td>
+                <center>Nombres y Apellidos </center>
+            </td>
+            <td>
+                <center>Función </center>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/tapia.jpg" alt="" width="80px"></td>
+            <td>
+                <center>Claudio, Tapia </center>
+            </td>
+            <td>
+                <center>Presidente de AFA</center>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/scaloni.jpg" alt="" width="80px"> </td>
+            <td>
+                <center>Lionel, Scaloni </center>
+            </td>
+            <td>
+                <center>Cuerpo Técnico </center>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/messilionel.jpg" width="80px"></td>
+            <td>
+                <center>Lionel, Messi</center>
+            </td>
+            <td>
+                <center>Jugador y Capitán del equipo</center>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <footer>
+        <p class="autor">Derechos de Autor: VELOZO, Eduardo. Fecha: 27/09/22</p>
+    </footer>
+</body>
+
+</html>

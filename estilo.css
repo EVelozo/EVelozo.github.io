@@ -1,0 +1,89 @@
+
+.encabezado{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 3px;
+}
+.titulo{
+    margin-top: 60px;
+    width: 100%;
+    height: 200%;
+    background-color: aquamarine;
+    text-align: center;
+    color: white;
+
+}
+.contenido{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: rgb(253, 255, 254);
+    padding: 1em;
+    float: left;
+    margin-right: 15px;
+background-image: url(imagenes/camiseta.webp);
+background-size: 200px;
+background-repeat: repeat;
+}
+.parrafo{
+    padding: 10px;
+    color: white;
+}
+.cleared{
+    clear: left;
+    color: white;
+}
+header{
+    background-color: rgba(30, 27, 32, 0);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+header{
+    color: white;
+}
+article{
+    height: 100%;
+    width: 100%;
+}
+.parte1{
+    font-size: 20px;
+    color: white;
+}
+.parte2{
+    color: white;
+}
+section{
+    display: flex;
+}
+.autor{
+    width: 100%;
+    height: 25px;
+    background-color: aqua;
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.apunte{
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    position:fixed; 
+    margin-top: 150px;
+    margin-left: 1290px;
+    padding: 10px;
+    border: 4px solid rgb(0, 221, 255);
+    border-radius: 3px;
+}
+.salir{
+    margin-left: 1300px;
+    color: red;
+    background-color: rgba(29, 28, 28, 0.622);
+    
+}

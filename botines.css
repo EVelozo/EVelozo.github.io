@@ -1,0 +1,87 @@
+.atras{
+    text-align: center;
+    color:rgb(34, 148, 186);
+    font-family: letra;
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    padding: 5px;
+    border: 3px solid rgb(32, 151, 191);
+    border-radius: 5px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 3px;
+}
+.contenido1{
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    background-color: rgb(253, 255, 254);
+    padding: 1em;
+    float: left;
+    margin-right: 15px;
+    background-image: url(imagenes/botines1.webp);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.parrafo1{
+    padding: 10px;
+    color: white;
+}
+.cleared{
+    clear: left;
+    color: white;
+}
+.contenido2{
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    background-color: rgb(253, 255, 254);
+    padding: 1em;
+    float: left;
+    margin-right: 15px;
+    background-image: url(imagenes/botines2.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.parrafo2{
+    padding: 10px;
+    color: white;
+}
+.cleared{
+    clear: left;
+    color: white;
+}.contenido3{
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    background-color: rgb(253, 255, 254);
+    padding: 1em;
+    float: left;
+    margin-right: 15px;
+    background-image: url(imagenes/botines3.webp);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.parrafo3{
+    padding: 10px;
+    color: white;
+}
+.cleared{
+    clear: left;
+    color: white;
+}
+.autor{
+    width: 100%;
+    height: 25px;
+    background-color: aqua;
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
